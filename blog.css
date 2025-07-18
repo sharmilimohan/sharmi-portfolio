@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: white;
+  color: black;
+}
+header {
+  border-bottom: 1px solid #ccc;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+.navbar a.active {
+  color: red;
+}
+.logo img {
+  height: 30px;}
+  .aboutus{
+    background-color: rgb(166, 57, 150);
+    height: 50px;
+    margin: 40px;
+    text-align: center;
+    width: 1200px;
+    font-size: 40px;
+  }
+  .course{
+    text-align: center;
+  }
+   body section{
+     height: 200px;
+  width: 500px;
+  display: grid;
+  padding: 20px;
+  background-color: rgb(202, 202, 222);
+grid-template-columns: 0.4fr 0.4fr 0.4fr ;
+   gap: 20px;
+   text-align: justify;
+   text-decoration: overline;
+   text-transform: capitalize;
+   letter-spacing: 2px;
+   word-spacing: 2px;
+   color: #fdfbfe;
+   overflow: hidden;
+   text-align: center;
+   text-decoration:none;
+   justify-content: center;
+   display: flex;
+   margin-top: 20px;
+   margin-left: 400px;
+
+
+   
+    
+  }
+   section div{
+    background-color: rgb(50, 14, 142);
+  }
+  .head{
+    grid-area:head ;
+    text-align: center;
+    padding-top: 60px;
+  }
+   .sec1{
+    grid-area:sec1 ;
+        padding-top: 60px;
+
+  }
+   .foot1{
+    grid-area:foot1 ;
+        padding-top: 60px;
+
+  }
+  .foot{
+    opacity: 0.7;
+    margin-top: 70px;
+}
